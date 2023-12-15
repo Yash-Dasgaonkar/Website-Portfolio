@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="icon" href="favicon_io (1)/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,300&display=swap" rel="stylesheet">
+    
+</head>
+<style>
+    
+
+    body {
+        background-color: rgb(12, 183, 226);
+        color: rgb(17, 17, 17);
+        font-family: 'Poppins', sans-serif;
+    }
+
+    nav {
+            display: flex;
+            justify-content: space-around;
+            align-self: center;
+            height: 80px;
+            background-color: aliceblue;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: green;
+
+        }
+
+        nav ul li a:hover{
+            
+            color: brown;
+            font-size: 1.04rem;
+
+        }
+
+        .left {
+            font-size: 2rem;}
+
+
+    .container1 {
+        width: 80%;
+        margin: 50px auto;
+    }
+
+    .contact-box {
+        background-color: aliceblue;
+        display: flex;
+    }
+
+    .contact-left {
+        flex-basis: 60%;
+        padding: 40px;
+    }
+
+    .contact-right {
+        flex-basis: 40%;
+        padding: 40px;
+        background: wheat;
+        color: black;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    .container1 p {
+        margin-bottom: 40px;
+    }
+
+
+    input {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #ccc ;
+        outline: none;
+        padding-bottom: 5px;
+
+    }
+     textarea{
+        width:100%;
+        border:1px solid #ccc;
+        outline: none;
+        padding: 10px;
+        box-sizing: border-box;
+
+
+
+    }
+    button{
+        background: goldenrod;
+        width: 100px;
+        border: none;
+        outline: none;
+        color: aliceblue;
+        height: 35px;
+        border-radius: 30px;
+        margin-top: 20px;
+        box-shadow:0px 2px 10px 0px black ;
+
+    }
+    .contact-left h3{
+        color: rgb(21, 21, 20);
+         font-weight:600 ;
+         margin-bottom: 30px;
+    }
+
+    .contact-right h3{
+        color: rgb(21, 21, 20);
+         font-weight:600 ;
+         margin-bottom: 30px;
+    }
+    tr td:first-child{
+        padding-right: 20px;
+    }
+
+    tr td{
+        padding-top: 20px;
+    }
+
+
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Yash Dasgaonkar portfolio</div>
+            <div class="right">
+                <br>
+                <ul>
+                    <li><a href="yash_Website.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="project.html">Projects</a></li>
+              
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main>
+
+
+    <div class="container1">
+        <h1><b>Connect with us</b></h1>
+        <p>We would appreciate to respond to your queries and help you succeed.<br>Feel free to get in touch with us.</p>
+        <div class="contact-box">
+            <div class="contact-left">
+                <h2>Sent your request</h2>
+                <form method="get" action="thankyou.html">
+                    <tr>
+                        <td><label for=" Name">Name</label></td>
+                        <td><input type="text" name="  Name" id=" Name" placeholder="Enter  Name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for=" phone">phone</label></td>
+                        <td><input type="number" name=" phone" id=" phone" placeholder="Enter phone number"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email id ">email id</label></td>
+                        <td><input type="email" name="email id" id="email id " placeholder="Enter email id"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="city">city</label></td>
+                        <td><input type="city" name="city" id="city" placeholder="Enter city "></td>
+                    </tr>
+
+                    <label for="">message</label>
+                    <textarea  rows="6">"your message "</textarea>
+
+                    <button type="submit">SEND</button>
+                </form>
+
+            </div>
+            <div class="contact-right">
+                <h2>Reach us</h2>
+                <table>
+                    <tr>
+                        <td>Email</td>
+                        <td>yash_dasgaonkar@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td> 9320-44-40344</td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <br>
+                        <td>C-9 Ashoka Complex manickpur chulna road<br>
+                        vasai(west),dist:thane<br>
+                    pincode:401202</td>
+                    </tr>
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <hr style="
+    border: 0;
+    background-color: black;
+    height: 1px;
+    
+    margin: 40px 84px;">
+    
+    <footer>
+        &copy; 2023 yash_dasgaonkar Portfolio. All rights reserved.
+    </footer>
+</main>
+</body>
+
+</html>
